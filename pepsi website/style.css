@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img.main-logo {
+    width: 80px;
+}
+
+.may-main-nav{
+    background-color: #0065c3;
+}
+
+li.nav-item.dropdown.product-dropdown {
+    list-style-type: none;
+    font-family: inherit;
+    color: white;
+}
+
+.product-dropdown > a#navbarDropdown {
+    color: white;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+a.nav-link.text-white.my-nav-links {
+    color: white;
+    font-weight: bold;
+}
+
+.my-pepsi-button{
+    display: inline-block;
+    
+    font-size: 0.8em;
+    height: 2.3em;
+    padding: 0.4em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: #0065c3;
+    color:  white;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: bold;
+    -webkit-transition: background-color .1s ease-out, color .1s ease-out;
+    transition: background-color .1s ease-out, color .1s ease-out;
+}
+
+.my-pepsi-button:hover{
+    background: white;
+    color: #0065c3;
+}
+
+.col-lg-6.landing-left {
+    position: relative;
+}
+
+img.tagline {
+    position: absolute;
+    right: 140px;
+    top: 80px;
+}
+
+img.main-cane {
+    width: 115%;
+    overflow: hidden;
+}
+section.landing , .col-lg-7.landing-left {
+    height: 115vh;
+} 
+.main-landing {
+    background-color: black;
+}
+
+img.tag-image {
+    width: 100%;
+}
+.mid {
+    text-align: center;
+}
+
+img.try-it {
+    width: 60%;
+    margin: 22px;
+}
+.my-small-div-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
