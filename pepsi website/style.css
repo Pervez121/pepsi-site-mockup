@@ -68,7 +68,10 @@ img.main-cane {
     width: 115%;
     overflow: hidden;
 }
-section.landing , .col-lg-7.landing-left {
+.section.landing {
+    height: max-content;
+}
+ .col-lg-7.landing-left {
     height: 115vh;
 } 
 .main-landing {
@@ -76,7 +79,7 @@ section.landing , .col-lg-7.landing-left {
 }
 
 img.tag-image {
-    width: 100%;
+    width: 80%;
 }
 .mid {
     text-align: center;
@@ -91,4 +94,142 @@ img.try-it {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    overflow: hidden;
 }
+.my-small-div-1 {
+    text-align: center;
+}
+.myiframe {
+    width: min-content;
+}
+.video-title {
+    font-family: Sofia Pro Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: small;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.col-lg-7.landing-left {
+    background-image: url("./images/black can.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 100vh;
+}
+.row{
+    margin: 0;
+}
+.col-lg-5.landing-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* .col-lg-5.landing-right {
+    position: relative;
+}
+
+.middle-box {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+} */
+
+
+section.second-box {
+    background: url(./images/bluebg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 5%;
+}
+img.nitro-glass {
+    height: 37vw;
+}
+img.nitro-logo {
+    width: 66%;
+}
+.right-box {
+    text-align: center;
+}
+h2.lists {
+    font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin: 5px;
+    font-size: 21px;
+    color: white;
+}
+.learn-more{
+    color: #ffffff;
+    border-color: #ffffff;
+    display: inline-block;
+    font-size: 1em;
+    height: 2.3em;
+    padding: 0.4em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-transition: background-color .1s ease-out, color .1s ease-out;
+    transition: background-color .1s ease-out, color .1s ease-out;
+}
+/* .image-box2{
+    background-image: url(./images/bg-1-desktop@2x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:top right;
+    height: 100vh;
+    background-color: #0065c3;
+    
+} */
+.third-box{
+    background-color: #0065c3;
+    
+}
+.my-banner{
+    width: 65%;
+    height: auto;
+}
+    .image-box2{
+        position: relative;
+    }
+
+img.my-banner {
+    position: absolute;
+    right: 0px;
+    z-index: 3;
+}
+img.orange-flavour{
+    height: 75%;
+    position: relative;
+    z-index: 10;
+}
+img.orange-flavour , .thats-what {
+    padding: 4%;
+}
+.thats-what{
+    width: 40%;
+    z-index: 5;
+    position: relative;
+
+}
+.bottom{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    z-index: 1;
+}
+
